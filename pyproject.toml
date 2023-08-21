@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "chainlit-conversational-qa-agent"
+version = "0.1.0"
+description = ""
+authors = ["Robert Nasuti <rlnasuti@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "chainlit_conversational_qa_agent"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = {extras = ["openai"], version = "^0.0.268"}
+chainlit = "^0.6.2"
+pinecone-client = {extras = ["grpc"], version = "^2.2.2"}
+pinecone-datasets = "^0.6.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

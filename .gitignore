@@ -1,0 +1,7 @@
+.env
+.venv/
+chainlit_conversational_qa_agent/
+tests/
+.chainlit/
+__pycache__/
+chainlit.md
